@@ -1,0 +1,68 @@
+* {box-sizing: border-box;}
+
+
+.card-practice:hover button{
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.card-practice{
+  border: 2px solid #ddd;
+  margin: 10px;
+  border-radius: 3px;
+  width: 350px;
+
+}
+
+.card-practice > header,
+.card-practice > footer{
+  background-color: #eee;
+  border-bottom: 1px solid #ddd;
+}
+
+.card-practice > header h1,
+.card-practice > footer h3{
+  margin: 0;
+  text-align: center;
+  color: #555;
+  font-size: 1em;
+  font-weight: 400;
+  padding: 10px 20px;
+  line-height: 2em;
+}
+
+.card-practice > main {
+  text-align: center;
+  padding: 0 1.5em 1.5em 1.5em;
+  overflow: hidden;
+
+}
+.card-practice > main p {
+  line-height: 1.5em;
+  letter-spacing: .5px;
+}
+
+.card-practice h2 {
+  margin: 17px 0px;
+  font-weight: 500;
+}
+
+.card-practice button {
+  background: #4285F4;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  padding: .6em 1.2em;
+  cursor: pointer;
+  transform: translateY(60px);
+  transition: all 1s cubic-bezier(0.67, -0.48, 0.01, 0.93);
+  opacity: 0;
+}
+
+.card-practice > footer{
+  border-bottom: none;
+  border-top: 1px solid #ddd
+
+
+
+}
